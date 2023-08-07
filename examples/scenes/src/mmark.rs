@@ -98,7 +98,7 @@ impl TestScene for MMark {
                     None,
                     &path,
                 );
-                path.truncate(0); // Should have clear method, to avoid allocations.
+                // path.truncate(0); // Should have clear method, to avoid allocations.
             }
             if rng.gen::<f32>() > 0.995 {
                 element.is_split ^= true;

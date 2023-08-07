@@ -149,7 +149,7 @@ fn animated_text(sb: &mut SceneBuilder, params: &mut SceneParams) {
         Color::WHITE,
         Affine::translate((110.0, 700.0)),
         // Add a skew to simulate an oblique font.
-        Some(Affine::skew(20f64.to_radians().tan(), 0.0)),
+        Some(Affine::default()),
         &Stroke::new(1.0),
         s,
     );

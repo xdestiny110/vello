@@ -12,6 +12,9 @@ members = [
     "examples/with_bevy",
     "examples/run_wasm",
     "examples/scenes",
+    "examples/my_wasm_demo",
+    "examples/my_native_demo",
+    "examples/my_winit_demo",
 ]
 
 [workspace.package]
@@ -53,7 +56,7 @@ wgpu-profiler = { workspace = true, optional = true }
 [workspace.dependencies]
 bytemuck = { version = "1.12.1", features = ["derive"] }
 fello = { git = "https://github.com/dfrg/fount", rev = "58a284eaae67512fb61cf76177c5d33238d79cb1" }
-peniko = { git = "https://github.com/linebender/peniko", rev = "cafdac9a211a0fb2fec5656bd663d1ac770bcc81" }
+peniko = { git = "https://github.com/linebender/peniko", rev = "b4a78ebde28637cd2f8e0f1e81d8ec50d6f4768e" }
 wgpu = "0.16"                                                                                               # NOTE: Make sure to keep this in sync with the version badge in README.md
 
 
