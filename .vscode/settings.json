@@ -17,5 +17,11 @@
   "wgsl-analyzer.diagnostics.nagaVersion": "main",
   "wgsl-analyzer.preprocessor.shaderDefs": [
     "full"
-  ]
+  ],
+  "rust-analyzer.linkedProjects": [
+    "./examples/my_native_demo/Cargo.toml",
+    "./examples/my_winit_demo/Cargo.toml"
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
